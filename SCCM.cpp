@@ -10,7 +10,7 @@ float convert(char *num,char *src)
 {
 	float res=0.0f;
 	float ff=atof(num);
-	if(!strcmp("mile",src)||!strcmp("miles",src))	//ע���Ƚ��ַ�����Ҫ��==����Ҫ��strcmp()����
+	if(!strcmp("mile",src)||!strcmp("miles",src)) 
 	{
 		res=(ff*1609.344);
 		return res;
