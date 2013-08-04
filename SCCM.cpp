@@ -115,6 +115,7 @@ int main()
 				}
 				fout<<sum<<" "<<u<<endl;
 			}
+			delete line_str;
 		}
 	}
 
